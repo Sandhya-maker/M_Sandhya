@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Player Cards</title>
+    <link rel="stylesheet" href="player_cards2.css" />
+  </head>
+  <body>
+    <h1 class="all" align="center">Cricket Player Stats Cards</h1>
+    <hr />
+    <table cellspacing="20" cellpadding="20">
+      <tr align="center">
+        <td>
+          <div class="p1">
+            <img
+              src="data:image/jpeg;base64,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"
+            />
+            <h2>VIRAT KOHLI</h2>
+            <h3>Batsman</h3>
+            <label>Runs</label>
+            <div class="b11">
+              <div class="f11"></div>
+            </div>
+            <label>Overs</label>
+            <div class="b12">
+              <div class="f12"></div>
+            </div>
+            <label>Wickets</label>
+            <div class="b13">
+              <div class="f13"></div>
+            </div>
+          </div>
+        </td>
+        <td>
+          <h2 class="s1">VIRAT KOHLI</h2>
+          <p>
+            Virat Kohli is a former Indian cricket captain and one of the
+            greatest batsmen of all time, known for his aggressive style and
+            disciplined approach. He has played for the Indian national team and
+            the Royal Challengers Bengaluru in the IPL, and is a former captain
+            in all three formats of the game (Test, ODI, and T20I). His career
+            is marked by numerous records, including being the first batter to
+            score 50 ODI centuries, and he has won several awards, such as the
+            Arjuna Award, Padma Shri, and Major Dhyan Chand Khel Ratna Award.
+          </p>
+          <a href="https://en.wikipedia.org/wiki/Virat_Kohli">View More</a>
+        </td>
+      </tr>
+      <tr align="center">
+        <td>
+          <div class="p2">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP4ZqXGs2-JSJXU7za9HARnjVsP2S8QcnWFw&s"
+            />
+            <h2>ROHIT SHARMA</h2>
+            <h3>Batsman</h3>
+            <label>Runs</label>
+            <div class="b21">
+              <div class="f21"></div>
+            </div>
+            <label>Overs</label>
+            <div class="b22">
+              <div class="f22"></div>
+            </div>
+            <label>Wickets</label>
+            <div class="b23">
+              <div class="f23"></div>
+            </div>
+          </div>
+        </td>
+        <td>
+          <h2 class="s1">ROHIT SHARMA</h2>
+          <p>
+            Rohit Sharma is an Indian international cricketer and former captain
+            known for his right-handed batting and nicknames like "Hitman". He
+            has captained India in all formats and led the team to the 2024 T20
+            World Cup victory. Sharma is celebrated for his exceptional record
+            in limited-overs cricket, including the highest individual score of
+            264 in ODIs, and has also captained the Mumbai Indians to five IPL
+            titles. He retired from T20Is in 2024 and is scheduled to retire
+            from Test cricket in 2025.
+          </p>
+          <a href="https://en.wikipedia.org/wiki/Rohit_Sharma">View More</a>
+        </td>
+      </tr>
+      <tr align="center">
+        <td>
+          <div class="p3">
+            <img src="hardik3.jpg" />
+            <h2>HARDIK PANDYA</h2>
+            <h3>All-Rounder</h3>
+            <label>Runs</label>
+            <div class="b31">
+              <div class="f31"></div>
+            </div>
+            <label>Overs</label>
+            <div class="b32">
+              <div class="f32"></div>
+            </div>
+            <label>Wickets</label>
+            <div class="b33">
+              <div class="f33"></div>
+            </div>
+          </div>
+        </td>
+        <td>
+          <h2 class="s1">HARDIK PANDYA</h2>
+          <p>
+            Hardik Pandya is an Indian international cricketer who plays as a
+            right-handed middle-order batsman and right-arm fast-medium bowler.
+            Born on October 11, 1993, he is widely regarded as one of the
+            world's best all-rounders in white-ball cricket, and plays for the
+            Indian national team and captains the Mumbai Indians in the Indian
+            Premier League (IPL). Pandya is known for his explosive hitting and
+            has achieved several records, including being the first Indian to
+            score a Test century just before lunch.
+          </p>
+          <a href="https://en.wikipedia.org/wiki/Hardik_Pandya">View More</a>
+        </td>
+      </tr>
+      <tr align="center">
+        <td>
+          <div class="p4">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIndovlvi12COXRTvz12xmJGKhfPnQlGtakg&s"
+            />
+            <h2>JASPRIT BUMRAH</h2>
+            <h3>Bowler</h3>
+            <label>Runs</label>
+            <div class="b41">
+              <div class="f41"></div>
+            </div>
+            <label>Overs</label>
+            <div class="b42">
+              <div class="f42"></div>
+            </div>
+            <label>Wickets</label>
+            <div class="b43">
+              <div class="f43"></div>
+            </div>
+          </div>
+        </td>
+        <td>
+          <h2 class="s1">JASPRIT BUMRAH</h2>
+          <p>
+            Jasprit Bumrah is an Indian international cricketer known for his
+            right-arm fast bowling. He has been a key player for the Indian
+            national team and the Mumbai Indians in the Indian Premier League
+            (IPL). Bumrah is recognized for his unique bowling action, pace, and
+            ability to deliver yorkers consistently, making him one of the best
+            fast bowlers in the world. He has achieved numerous records and
+            accolades throughout his career.
+          </p>
+          <a href="https://en.wikipedia.org/wiki/Jasprit_Bumrah">View More</a>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
